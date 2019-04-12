@@ -26,7 +26,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                // somethig
+                // so
+
+
+                Abstract jerin = new Abstract("Jerimn", "151", "Bonosri", "017");
+                Abstract juboraj = new Abstract("Juboraj", "151-15-270", "Uttara", "019");
+
+                Toast.makeText(MainActivity.this, juboraj.getId(), Toast.LENGTH_SHORT).show();
 
             }
         });
